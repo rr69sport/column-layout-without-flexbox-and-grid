@@ -55,6 +55,8 @@
 
 ![Captura de pantalla](./imgs/grid.jpg)
 
+---
+
 ## Con `display: flex;`
 
 ```html
@@ -128,6 +130,8 @@
 ```
 
 ![Captura de pantalla](./imgs/flexbox.jpg)
+
+---
 
 ## Sin flexbox ni grid
 
