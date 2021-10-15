@@ -2,6 +2,44 @@
 
 ## Con `display: grid;`
 
+```html
+<article class="article display-grid">
+    <h2 class="display-grid--full-width">
+        Con display: grid;
+    </h2>
+    <section>
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section>
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section>
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section>
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section>
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+</article>
+```
+
 ```css
 .display-grid {
     display: grid;
@@ -18,6 +56,44 @@
 ![Captura de pantalla](./imgs/grid.jpg)
 
 ## Con `display: flex;`
+
+```html
+<article class="display-flex">
+    <h2 class="display-flex__full-width">
+        Con display: flex;
+    </h2>
+    <section class="display-flex__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section class="display-flex__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section class="display-flex__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section class="display-flex__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section class="display-flex__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+</article>
+```
 
 ```css
 .display-flex {
@@ -54,6 +130,44 @@
 ![Captura de pantalla](./imgs/flexbox.jpg)
 
 ## Sin flexbox ni grid
+
+```html
+<article class="without-flex-grid">
+    <h2 class="without-flex-grid--full-width">
+        Sin flexbox ni grid
+    </h2>
+    <section class="without-flex-grid__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section class="without-flex-grid__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section class="without-flex-grid__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section class="without-flex-grid__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+    <section class="without-flex-grid__column">
+        <h3>Elemento</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ab porro sint molestiae accusamus fuga? Impedit repudiandae
+           ab dolorum libero natus placeat, iure quos vitae.</p>
+    </section>
+</article>
+```
 
 ```css
 .without-flex-grid {
