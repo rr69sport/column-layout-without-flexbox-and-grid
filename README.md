@@ -1,4 +1,4 @@
-# Sistema de columnas sin flexbox ni grid
+# Sistema de columnas con y sin flexbox o grid
 
 ## Con `display: grid;`
 
